@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Comentarios</title>
+<style type="text/css">
+body,td,th {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    color: #0734B0;
+    font-size: 16px;
+}
+body {
+    background-color: #a9d9f5;
+}
+	.s1 {
+    width: 15%;
+    float: left;
+    display: block;
+    text-align: left;
+    }
+    .s2 {
+    width: 35%;
+    float: left;
+    display: block;
+    text-align: left;
+    }
+	.s3 {
+    width: 50%;
+    float: left;
+    display: block;
+    }
+</style>
+</head>
+
+<body>
+<form name="frm01" id="frm01" method="post" action="" >
+<div>
+  <img src="images/Burberry.png" width="256" height="109" alt=""/><img style="margin-left: 920px; margin-top: 26px;" src="images/user_icon-icons.com_57997.png" width="45" height="58" alt=""/>
+</div>
+	<hr />
+    <h2>Gestión de comentarios</h2>
+	<br />
+    <label for="usrtxt">Titulo </label>
+    <input type="text" id="usrtxt" name="usrtxt" placeholder="Titulo de su comentario"/>
+    <br />
+    <p>Fecha
+        <input type="date" />
+    </p>
+    <p>
+        <div>Escriba sus comentarios</div>
+        <textarea id="com01"></textarea>
+    </p>
+    <p>Puntuación
+        <input type="radio" name="radpun" id="pun01" />1
+        <input type="radio" name="radpun" id="pun02" />2
+        <input type="radio" name="radpun" id="pun03" />3
+        <input type="radio" name="radpun" id="pun04" />4
+        <input type="radio" name="radpun" id="pun05" checked="checked" />5
+    </p>
+    <p>
+        <input type="button" value="Enviar comentarios" onClick="JavaScript:alert('Presionaste el boton');" />
+    </p>
+    <br />
+    <hr />
+</form>
+</body>
+</html>
