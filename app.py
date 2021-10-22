@@ -2,6 +2,8 @@ from flask import Flask
 app= Flask(__name__)
 
 
-#Conection with lorena
 
+@route ('/login')
+def iniciarSesion():
+    return ()
 
