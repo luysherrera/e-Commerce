@@ -6,4 +6,3 @@ app= Flask(__name__)
 def iniciarSesion():
     return ()
 
-#joiner es tarde pero gracias por esxplicarme
