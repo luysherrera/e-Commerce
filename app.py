@@ -6,3 +6,8 @@ app= Flask(__name__)
 def iniciarSesion():
     return ()
 
+#Se ven los cambios
+#confirmando commit
+#no deja realizar commints estoy en problemas
+
+#Hola nuevo comentario
