@@ -3,5 +3,3 @@ app= Flask(__name__)
 
 
 #Conection with lorena
-
-
