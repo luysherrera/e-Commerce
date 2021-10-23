@@ -54,7 +54,7 @@ html, body{
 .mdl-textfield{ width: 100%; }
 .full-width{
 	margin: 0;
-	padding: 0;
+	padding: 0;                                                   
 	width: 100%;
 	box-sizing: border-box;
 }
@@ -73,7 +73,7 @@ html, body{
 }
 .divider-menu-h{
 	height: 0;
-	border-top: 1px solid rgba(255, 255, 255, .09);
+	border-top: 1px solid rgb(255, 255, 255);
 	width: 85%;
 	margin: 0 auto;
 }
@@ -99,7 +99,7 @@ html, body{
 	height: 45px;
 	display: block;
 	line-height: 45px;
-	color: #fff;
+	color: rgb(255, 255, 255);
 	font-size: 20px;
 }
 .panel-content{
@@ -154,7 +154,7 @@ html, body{
 	top: 0;
 	left: 0;
 	pointer-events: none;
-	opacity: 0;
+	opacity: 100;
     z-index: 997;
 }
 .container-notifications-bg{
@@ -162,7 +162,7 @@ html, body{
 	position: absolute;
 	top: 0;
 	left: 0;
-	background-color: rgba(0,0,0,.5);
+	background-color: rgba(0, 89, 255, 0.5);
 }
 .container-notifications-show{
 	pointer-events: auto;
@@ -170,7 +170,7 @@ html, body{
 }
 .NotificationArea{
 	box-sizing: border-box;
-    background-color: #fff;
+    background-color: rgb(0, 60, 255);
     height: 100%;
     width: 300px;
     top: 0;
@@ -210,15 +210,15 @@ html, body{
     display: block;
     width: 300px;
     border-top: 1px solid #f3f3f3;
-    color: #2b2b2c;
+    color: #0707f3;
     font-size: 14px;
     transition: all .3s ease-in-out;
 }
 .Notification:hover{
-	background-color: rgba(0,0,0,.07);
+	background-color: rgba(38, 0, 255, 0.87);
 }
 .Notification small{
-    color: #BDBDBD;
+  color: #BDBDBD;
 }
 .Notification-icon,
 .Notification-text{
@@ -382,9 +382,8 @@ html, body{
 	width: 300px;
 	z-index: 100;
 	transition: all .3s ease-in-out;
-	background-image: url("../assets/img/FontNavLateral.jpg");
 	background-size: cover;
-	color: #fff;
+	color: rgba(9, 9, 245, 0.863);
 	overflow: hidden;
 }
 .navLateral-change{
@@ -396,7 +395,7 @@ html, body{
 	z-index: 82;
 	left: 0;
 	padding-bottom: 30px;
-	background-color: rgba(43, 43, 44, .9);
+	background-color: rgb(9, 9, 245);
 }
 .navLateral-body-logo{
 	height: 45px;
