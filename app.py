@@ -1,9 +1,30 @@
 from flask import Flask, render_template
 app= Flask(__name__)
 
-@app.route('/')
+@app.route('/' )
 def iniciarSesion():
     return render_template('login.html')
-@app.route('/Dashboard')
+
+@app.route('/Registro', methods=['GET','POST'])
+def dashboard():
+    return render_template('Register.html')
+
+@app.route('/principal', methods=['GET', 'POST'])
+def dashboard():
+    return render_template('PaginaPrincipal.html')
+
+@app.route('/dashboard', methods=['GET', 'POST'])
 def dashboard():
     return render_template('dashboard.html')
+
+@app.route('/ListaDeseos', methods=['GET', 'POST'])
+def dashboard():
+    return render_template('ListaDeDeseos.html')
+
+@app.route('/EliminarProductos',methods=['GET', 'POST'])
+def dashboard():
+    return render_template('eliminarProducto.html')
+
+@app.route('/Comentarios', methods=['GET', 'POST'])
+def dashboard():
+    return render_template('Comentarios.html')
